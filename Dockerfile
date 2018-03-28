@@ -10,4 +10,4 @@ RUN pip install Flask
 COPY main.py /src/main.py
 
 EXPOSE  8000
-CMD ["python", "/src/main.py", "-p 8000"]
+CMD ["python", "/src/main.py", "-p 80"]
